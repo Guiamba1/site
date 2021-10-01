@@ -34,3 +34,5 @@
                   #python .\manage.py startapp usuarios
 
 #=============================================================================#
+#ANALIZANDO A COBERTURA DOS TESTES ==>
+                                   #pytest --cov --cov-report=html
