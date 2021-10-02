@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     # Meus apps
     #===============================================#
     "usuarios.apps.UsuariosConfig"
+     #"usuarios.apps.UsersConfig",
+    #"users.apps.UsersConfig",
    
 ]
 
@@ -123,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'ZW'
+TIME_ZONE = 'Africa/Maputo'
 
 USE_I18N = True
 
