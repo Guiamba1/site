@@ -63,7 +63,7 @@ ROOT_URLCONF = 'lojaPy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/"tamplates"],
+        'DIRS': [r"C:\Users\Oscar AlbertoGuiamba\Documents\GitHub\site\tamplates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,7 +75,7 @@ TEMPLATES = [
         },
     },
 ]
-
+#"C:\Users\Oscar AlbertoGuiamba\Documents\GitHub\site\tamplates"
 WSGI_APPLICATION = 'lojaPy.wsgi.application'
 
 
